@@ -48,30 +48,30 @@
             </div>
         </div>
     </div>
-<div class="md:mx-auto md:w-3/4 w- grid grid-cols-2 md:grid-cols-5 mt-24">
+<div class="md:mx-auto md:w-3/4 mx-5 grid grid-cols-2 md:grid-cols-5 mt-24">
     <div>
-        <button @click="view1" class="shadow-2xl rounded-3xl p-2 md:p-3 flex wrap" v-if="view1">
-            <img class="rounded-full h-10 p-0 " :src="pic1"><span class="font-bold ml-2">Holy Schinsky<br><p class="text-xs font-normal">Dev Envangelist Adobe</p></span>
+        <button @click="view1" class="shadow-2xl rounded-3xl md:rounded-3xl p-2 md:p-3 flex wrap" v-if="view1">
+            <img class="rounded-full h-5 md:h-10 p-0 " :src="pic1"><span class="font-bold md:ml-2">Holy Schinsky<br><p class="text-xs font-normal">Dev Envangelist Adobe</p></span>
         </button>
     </div>
     <div>
-        <button @click="view2" class="shadow-2xl rounded-3xl p-2 md:p-3 flex wrap" v-if="view2">
-            <img class="rounded-full h-10 p-0 " :src="pic2"><span class="font-bold ml-2">Jeff Cross<br><p class="text-xs font-normal">Co founder of Nrwi</p></span>
+        <button @click="view2" class="shadow-2xl rounded-3xl md:rounded-3xl p-2 md:p-3 flex wrap" v-if="view2">
+            <img class="rounded-full h-5 md:h-10 p-0 " :src="pic2"><span class="font-bold md:ml-2">Jeff Cross<br><p class="text-xs font-normal">Co founder of Nrwi</p></span>
         </button>
     </div>
     <div>
-        <button @click="view3" class="shadow-2xl  rounded-3xl p-2 md:p-3 flex wrap" v-if="view3">
-            <img class="rounded-full h-10 p-0 " :src="pic3"><span class="font-bold ml-2">Misko Hevery<br><p class="text-xs font-normal">Creator of angular</p></span>
+        <button @click="view3" class="shadow-2xl rounded-3xl  md:rounded-3xl p-2 md:p-3 flex wrap" v-if="view3">
+            <img class="rounded-full h-5 md:h-10 p-0 " :src="pic3"><span class="font-bold md:ml-2">Misko Hevery<br><p class="text-xs font-normal">Creator of angular</p></span>
         </button> 
     </div>
     <div>
-        <button @click="view4" class="shadow-2xl rounded-3xl p-2 md:p-3 flex wrap" v-if="view4">
-            <img class="rounded-full h-10 p-0 " :src="pic4"><span class="font-bold ml-2">John Papa<br><p class="text-xs font-normal">Microsoft Dev Rel</p></span>
+        <button @click="view4" class="shadow-2xl rounded-3xl md:rounded-3xl p-2 md:p-3 flex wrap" v-if="view4">
+            <img class="rounded-full h-5 md:h-10 p-0 " :src="pic4"><span class="font-bold md:ml-2">John Papa<br><p class="text-xs font-normal">Microsoft Dev Rel</p></span>
         </button>
     </div>
-    <div>
-        <button @click="view5" class="shadow-2xl rounded-3xl p-2 md:-3 flex wrap" v-if="view5">
-            <img class="rounded-full h-10 p-0 " :src="pic5"><span class="font-bold ml-2">James Templin<br><p class="text-xs font-normal">Creator of angular</p></span>
+    <div class="">
+        <button @click="view5" class="shadow-2xl rounded-3xl md:rounded-3xl p-2 md:p-3 flex wrap" v-if="view5">
+            <img class="rounded-full h-5 md:h-10 p-0 " :src="pic5"><span class="font-bold md:ml-2">James Templin<br><p class="text-xs font-normal">Creator of angular</p></span>
         </button>
     </div>
 </div>

@@ -5,7 +5,7 @@
       </div>
         <img class="mt-10 rounded-lg hidden w-full md:flex md:items-center md:w-auto" :src="profile" />
       </div>
-      <div class="w-10/12 md:w-11/12 md:mx-auto mx-auto">
+      <div class="md:w-11/12 md:mx-auto mx-auto">
            <h1 class="md:text-5xl text-3xl font-bold text-center pt-10">Who are we?</h1>
            <p class="text-gray-500 text-center pt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum sint adipisci corrupti odit? Repellendus, ducimus saepe. Quos, quibusdam enim cumque, delectus voluptate explicabo numquam exercitationem et odit iusto repellendus sit blanditiis neque voluptas impedit omnis! Eligendi quo consectetur culpa quod Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum sint adipisci corrupti odit? Repellendus, ducimus saepe. Quos, quibusdam enim cumque, delectus voluptate explicabo numquam exercitationem et odit iusto repellendus sit blanditiis neque voluptas impedit omnis! Eligendi quo consectetur</p>
            <h1 class="md:text-5xl text-3xl font-bold text-center pt-10">Our Mission</h1>
@@ -15,7 +15,7 @@
                   <h1 class="font-bold">Header</h1>
                   <h3 class="">Content</h3>
               </div>
-              <div class=" ">
+              <div class="">
                 <img class="w-2/3 h-2/3" :src="profile2">
                   <h1 class="font-bold">Header</h1>
                   <h3 class="">Content</h3>

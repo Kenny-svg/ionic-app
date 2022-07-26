@@ -116,13 +116,13 @@
             </form>
         </div>
     </div>
-    <div class="grid grid-cols-2 mt-20 border-b-2 w-9/12 mx-auto ">
+    <div class="grid grid-cols-2 mt-20 border-b-2 md:w-9/12 mx-auto ml-2 md:gap-0">
         <ul class="flex justify-start">
             <li class="flex"><i class="bi bi-c-circle"></i> 2022 Ionic</li>
             <li class="mx-1">Terms</li>
             <li class="mx-1">Privacy</li>
         </ul>
-        <ul class="flex justify-end text-gray-400">
+        <ul class="flex justify-end text-gray-400 mr-2">
             <!-- Add Icons using String format -->
             <i class="bi bi-github mx-1"></i>
             <i class="bi bi-facebook mx-1"></i>

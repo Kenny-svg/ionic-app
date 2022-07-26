@@ -18,7 +18,7 @@
         <img class="rounded-lg hidden w-full md:flex md:items-center md:w-4/5 p-10" :src="image">
       </div>
       <div>
-        <div class="p-4 font-bold text-justify text-xl mt-10">
+        <div class="p-4 font-bold text-justify text-xl mt-10 tracking-wider">
           Learn the differences between hybrid and native apps. We break down all the myths and misconceptions.
         </div>
         <button class="btn-primary w-50 text-xs ml-4 mb-5">Read the free ebook</button>
@@ -28,23 +28,23 @@
   <div class="text-3xl md:text-5xl p-10 font-extrabold">
     <h1 class="text-center mx-auto mt-4 text-gray-400">Cross-platform apps.</h1>
     <h1 class=" text-center mx-auto mt-4">Powered By Kendrick.</h1>
-    <p class="text-center font-normal text-base md:text-xl md:w-4/6 mx-auto mt-4">Free and open source, Ionic offers a library of mobile-optimized UI components, gestures, and tools for building fast, highly interactive apps.</p>
+    <p class="text-center font-normal text-base md:text-xl md:w-4/6 mx-auto mt-4 tracking-widest">Free and open source, Ionic offers a library of mobile-optimized UI components, gestures, and tools for building fast, highly interactive apps.</p>
   </div>
   <div class="grid grid-cols-1 md:w-full md:grid-cols-3 rounded-lg gap-2">
-    <div  class="rounded-lg  w-9/12 mx-auto  md:items-center md:w-12/12 p-10">
+    <div  class="rounded-lg  w-11/12 mx-auto  md:items-center md:w-12/12 p-10">
       <img :src="image2">
        <h1 class="text-center mx-auto mt-4 font-bold">Cross-platform apps.</h1>
-      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400">Ionic’s UI components look great on all mobile devices and platforms. Start with pre-made components, typography, and a base theme that adapts to each platform</p>
+      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400 tracking-widest">Ionic’s UI components look great on all mobile devices and platforms. Start with pre-made components, typography, and a base theme that adapts to each platform</p>
     </div>
-    <div  class="rounded-lg  w-9/12 mx-auto  md:items-center md:w-12/12 p-10">
+    <div  class="rounded-lg  w-11/12 mx-auto  md:items-center md:w-12/12 p-10">
       <img :src="image2">
        <h1 class="text-center mx-auto mt-4 font-bold">Write once, run anywhere</h1>
-      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400">Ionic lets developers to ship apps to the app stores and as a PWA with a single code base. With Adaptive Styling, apps look and feel at home on every platform.</p>
+      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400 tracking-widest">Ionic lets developers to ship apps to the app stores and as a PWA with a single code base. With Adaptive Styling, apps look and feel at home on every platform.</p>
     </div>
-    <div  class="rounded-lg  w-9/12 mx-auto md:mx-2 md:items-center md:w-12/12 p-10">
+    <div  class="rounded-lg  w-11/12 mx-auto md:mx-2 md:items-center md:w-12/12 p-10">
       <img :src="image2">
        <h1 class="text-center mx-auto mt-4 font-bold">Developer-friendly tooling</h1>
-      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400">Create, build, test, and deploy your app with the Ionic CLI. Take advantage of Live Reload, deployments, integrations, and even use your favorite JS framework’s CLI.</p>
+      <p class="font-base text-justify mt-4 font-bold md:leading-7 text-xl text-secondary-400 tracking-widest">Create, build, test, and deploy your app with the Ionic CLI. Take advantage of Live Reload, deployments, integrations, and even use your favorite JS framework’s CLI.</p>
     </div>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 md:ml-12">

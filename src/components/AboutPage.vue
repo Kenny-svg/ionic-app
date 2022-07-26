@@ -9,19 +9,19 @@
            <h1 class="md:text-5xl text-3xl font-bold text-center pt-10">Who are we?</h1>
            <p class="text-gray-500 text-center p-3 md:pt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum sint adipisci corrupti odit? Repellendus, ducimus saepe. Quos, quibusdam enim cumque, delectus voluptate explicabo numquam exercitationem et odit iusto repellendus sit blanditiis neque voluptas impedit omnis! Eligendi quo consectetur culpa quod Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum sint adipisci corrupti odit? Repellendus, ducimus saepe. Quos, quibusdam enim cumque, delectus voluptate explicabo numquam exercitationem et odit iusto repellendus sit blanditiis neque voluptas impedit omnis! Eligendi quo consectetur</p>
            <h1 class="md:text-5xl text-3xl font-bold text-center pt-10">Our Mission</h1>
-           <div class="grid grid-cols-1 md:grid-cols-3 mt-10 md:w-12/12 mx-32">
+           <div class="grid grid-cols-1 md:grid-cols-3 mt-10 md:w-12/12 mx-32 mb-5">
               <div class="">
-                <img class=" md:w-3/4 md:h-2/3 mt-5" :src="profile1">
+                <img class="w-12/12 md:w-3/4 md:h-2/3 mt-5" :src="profile1">
                   <h1 class="font-bold">Header</h1>
                   <h3 class="">Content</h3>
               </div>
               <div class="">
-                <img class=" md:w-3/4 md:h-2/3 mt-5" :src="profile2">
+                <img class="w-12/12 md:w-3/4 md:h-2/3 mt-5" :src="profile2">
                   <h1 class="font-bold">Header</h1>
                   <h3 class="">Content</h3>
               </div>
               <div class="">
-                <img class=" md:w-3/4 md:h-2/3 mt-5" :src="profile3">
+                <img class="w-12/12 md:w-3/4 md:h-2/3 mt-5" :src="profile3">
                   <h1 class="font-bold">Header</h1>
                   <h3 class="">Content</h3>
               </div>
